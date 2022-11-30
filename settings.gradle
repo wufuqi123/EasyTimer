@@ -1,0 +1,3 @@
+rootProject.name = "EasyTimer"
+include ':app'
+include ':EasyTimer'
