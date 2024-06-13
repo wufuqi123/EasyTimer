@@ -10,7 +10,7 @@
     请在 build.gradle 下添加依赖。
 
     ``` 
-        implementation 'cn.wufuqi:EasyTimer:1.0.1'
+        implementation 'cn.wufuqi:EasyTimer:1.0.2'
     ```
 2. 设置jdk8或更高版本
 
