@@ -2,12 +2,13 @@ package cn.wufuqi.easytimer
 
 import cn.wufuqi.convertmainthread.ConvertMainThread
 import java.util.*
+import java.util.concurrent.ConcurrentHashMap
 
 open class EasyTimer {
     /**
      * 放置定时器的全部列表
      */
-    private val timerMap = mutableMapOf<UUID, Timer>()
+    private val timerMap:MutableMap<UUID, Timer> = ConcurrentHashMap()
 
     /**
      *  计时器，每time毫秒执行一次回调，执行多次。
